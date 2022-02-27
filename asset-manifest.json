@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/tablo/static/css/main.0790984d.css",
+    "main.js": "/tablo/static/js/main.a4ac3728.js",
+    "index.html": "/tablo/index.html",
+    "main.0790984d.css.map": "/tablo/static/css/main.0790984d.css.map",
+    "main.a4ac3728.js.map": "/tablo/static/js/main.a4ac3728.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0790984d.css",
+    "static/js/main.a4ac3728.js"
+  ]
+}
