@@ -1,6 +1,15 @@
 body {
   margin: 0;
 }
+html{
+  scroll-snap-type:y proximity;
+  
+}
+
+.scroll--snap{
+  scroll-snap-align: start;
+}
+
 .scene__container {
   position: fixed;
 }

@@ -1,10 +1,12 @@
 [
     {
         "name": "Vojtěch Suchánek",
-        "instagram": "@vojtik_suchanek"
+        "instagram": "@vojtik_suchanek",
+        "offset": 300
     },
     {
         "name": "Lukáš Maršík",
-        "instagram": "@lukas_marsik"
+        "instagram": "@lukas_marsik",
+        "offset": 800
     }
 ]
