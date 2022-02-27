@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/tablo/static/css/main.2fbc9ff4.css",
-    "main.js": "/tablo/static/js/main.0d2ff824.js",
+    "main.js": "/tablo/static/js/main.6bfcbe25.js",
     "index.html": "/tablo/index.html",
     "main.2fbc9ff4.css.map": "/tablo/static/css/main.2fbc9ff4.css.map",
-    "main.0d2ff824.js.map": "/tablo/static/js/main.0d2ff824.js.map"
+    "main.6bfcbe25.js.map": "/tablo/static/js/main.6bfcbe25.js.map"
   },
   "entrypoints": [
     "static/css/main.2fbc9ff4.css",
-    "static/js/main.0d2ff824.js"
+    "static/js/main.6bfcbe25.js"
   ]
 }
