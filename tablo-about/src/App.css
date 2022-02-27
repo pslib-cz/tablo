@@ -1,11 +1,44 @@
-body{
+body {
   margin: 0;
 }
-.scene__container{
+.scene__container {
   position: fixed;
 }
 
-.scene{
-  transition-duration: .5s;
+.scene {
   transform-style: preserve-3d;
+  transform: perspective(500px);
+  transform-origin: center;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+}
+
+.scene * {
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+  transform-style: preserve-3d;
+}
+
+.scene__netflix {
+  width: 100vw;
+  height: 100vh;
+}
+.scene__background {
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+}
+.scene__netflix img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.creator__card{
+  color: white;
+  background-color: blue;
 }
