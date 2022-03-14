@@ -1,5 +1,18 @@
 import React from 'react'
 import vojtik from './imgs/vojtik.jpg'
+//import { useState, useRef } from 'react'
+
+import LightGallery from 'lightgallery/react';
+
+// import styles
+import 'lightgallery/css/lightgallery.css';
+import 'lightgallery/css/lg-zoom.css';
+import 'lightgallery/css/lg-thumbnail.css';
+// import plugins
+import lgThumbnail from 'lightgallery/plugins/thumbnail';
+import lgZoom from 'lightgallery/plugins/zoom';
+
+import image from "./imgs/movies/BOREK.jpg"
 
 export default function Scene({ offsetY }) {
     //console.log(offsetY)
@@ -32,9 +45,9 @@ export default function Scene({ offsetY }) {
                             </figure>
                             <h3>Vojtěch Suchánek</h3>
                             <div className='creator__links'>
-                                <a href='https://www.instagram.com/vojtik_suchanek' target='_blank'>{instagram}</a>
-                                <a href='https://www.facebook.com/profile.php?id=100011387843027' target='_blank'>{facebook}</a>
-                                <a href='https://github.com/elecraft2002' target='_blank'>{github}</a>
+                                <a rel='noopener' href='https://www.instagram.com/vojtik_suchanek' target='_blank'>{instagram}</a>
+                                <a rel='noopener' href='https://www.facebook.com/profile.php?id=100011387843027' target='_blank'>{facebook}</a>
+                                <a rel='noopener' href='https://github.com/elecraft2002' target='_blank'>{github}</a>
                             </div>
                             <p>
                                 Grafik, programátor a střihač v jednom :)
@@ -48,9 +61,9 @@ export default function Scene({ offsetY }) {
                             </figure>
                             <h3>Vojtěch Suchánek</h3>
                             <div className='creator__links'>
-                                <a href='https://www.instagram.com/vojtik_suchanek' target='_blank'>{instagram}</a>
-                                <a href='https://www.facebook.com/profile.php?id=100011387843027' target='_blank'>{facebook}</a>
-                                <a href='https://github.com/elecraft2002' target='_blank'>{github}</a>
+                                <a rel='noopener' href='https://www.instagram.com/vojtik_suchanek' target='_blank'>{instagram}</a>
+                                <a rel='noopener' href='https://www.facebook.com/profile.php?id=100011387843027' target='_blank'>{facebook}</a>
+                                <a rel='noopener' href='https://github.com/elecraft2002' target='_blank'>{github}</a>
                             </div>
                         </div>
                     </div>
@@ -61,17 +74,31 @@ export default function Scene({ offsetY }) {
                             </figure>
                             <h3>Vojtěch Suchánek</h3>
                             <div className='creator__links'>
-                                <a href='https://www.instagram.com/vojtik_suchanek' target='_blank'>{instagram}</a>
-                                <a href='https://www.facebook.com/profile.php?id=100011387843027' target='_blank'>{facebook}</a>
-                                <a href='https://github.com/elecraft2002' target='_blank'>{github}</a>
+                                <a rel='noopener' href='https://www.instagram.com/vojtik_suchanek' target='_blank'>{instagram}</a>
+                                <a rel='noopener' href='https://www.facebook.com/profile.php?id=100011387843027' target='_blank'>{facebook}</a>
+                                <a rel='noopener' href='https://github.com/elecraft2002' target='_blank'>{github}</a>
                             </div>
                         </div>
 
                     </div>
                 </div>
             </section>
-            <div className='wave' style={{marginTop:-offsetY/2 }} >{wave1}</div>
-            xdd
+            <div className='wave' style={{ marginTop: -offsetY / 2 }} >{wave1}</div>
+
+            <section className='gallery '>
+                <h2>Gallery</h2>
+                <LightGallery
+                    speed={500}
+                    plugins={[lgThumbnail, lgZoom]}
+                >
+                    <a href={image}>
+                        <img alt="img1" src={image} />
+                    </a>
+                    <a href="imgs/netflix.png">
+                        <img alt="img2" src="imgs/tablo2.jpg" />
+                    </a>
+                </LightGallery>
+            </section>
         </main >
     )
 }

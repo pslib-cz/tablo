@@ -46,7 +46,8 @@ main {
   padding-top: 90px;
 }
 .content__container,
-.creator__container {
+.creator__container,
+.gallery {
   display: block;
   margin: 1rem;
   background: rgba(255, 255, 255, 0.2);
@@ -108,13 +109,14 @@ main {
   min-height: 10vh;
 }
 
-h2{
+h2 {
   margin: 1rem;
   color: var(--light);
 }
 
 @media only screen and (min-width: 1200px) {
-  .content__container {
+  .content__container,
+  .gallery {
     width: 1200px;
     margin: 1rem calc(50vw - 600px);
   }
@@ -122,6 +124,10 @@ h2{
 
 .wave {
   width: 100vw;
-  transform: translateY(calc(-50%));
   z-index: -1;
+  position: absolute;
+}
+.gallery::before{
+  content: "";
+  left: 0;
 }
