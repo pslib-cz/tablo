@@ -12,7 +12,8 @@ import 'lightgallery/css/lg-thumbnail.css';
 import lgThumbnail from 'lightgallery/plugins/thumbnail';
 import lgZoom from 'lightgallery/plugins/zoom';
 
-import image from "./imgs/movies/BOREK.jpg"
+import {images} from "./gallery"
+import GalleryImage from "./GalleryImage"
 
 export default function Scene({ offsetY }) {
     //console.log(offsetY)
@@ -83,7 +84,6 @@ export default function Scene({ offsetY }) {
                     </div>
                 </div>
             </section>
-            <div className='wave' style={{ marginTop: -offsetY / 2 }} >{wave1}</div>
 
             <section className='gallery '>
                 <h2>Gallery</h2>
@@ -91,12 +91,10 @@ export default function Scene({ offsetY }) {
                     speed={500}
                     plugins={[lgThumbnail, lgZoom]}
                 >
-                    <a href={image}>
-                        <img alt="img1" src={image} />
-                    </a>
-                    <a href="imgs/netflix.png">
-                        <img alt="img2" src="imgs/tablo2.jpg" />
-                    </a>
+
+                    {images.map(image => {
+                        return <GalleryImage url={image.url} name={image.name} urlMin={image.urlMin} />
+                    })}
                 </LightGallery>
             </section>
         </main >

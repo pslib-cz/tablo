@@ -127,7 +127,50 @@ h2 {
   z-index: -1;
   position: absolute;
 }
-.gallery::before{
+.gallery::before {
   content: "";
   left: 0;
+}
+
+/* Gallery */
+
+.lg-react-element .lg__image {
+  width: 300px;
+  margin: 1rem;
+}
+.lg-react-element {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.lg__image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.lg__image figure {
+  margin: 0;
+  aspect-ratio: 2 / 3;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 1rem;
+  position: relative;
+}
+
+.lg__image figcaption {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -2em);
+  transition: 0.5s;
+  filter: drop-shadow(0 0 10px black);
+}
+.lg__image:hover figcaption {
+  transform: translate(-50%, -2em) scale(1.2);
+}
+
+@media only screen and (max-width: 350px) {
+  .lg-react-element .lg__image {
+    max-width: 300px;
+  }
 }
