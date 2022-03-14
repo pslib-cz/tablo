@@ -1,13 +1,40 @@
 {
   "files": {
-    "main.css": "/tablo/static/css/main.2fbc9ff4.css",
-    "main.js": "/tablo/static/js/main.6bfcbe25.js",
+    "main.css": "/tablo/static/css/main.908a5d33.css",
+    "main.js": "/tablo/static/js/main.8b8687aa.js",
+    "static/media/Final.jpg": "/tablo/static/media/Final.9a38c144796bb5308f9a.jpg",
+    "static/media/tomáš_jindrák.png": "/tablo/static/media/tomáš_jindrák.bc581b5dfabb68cc2229.png",
+    "static/media/Viktor_Cast_Away.jpg": "/tablo/static/media/Viktor_Cast_Away.3f398911ff980fc61c5f.jpg",
+    "static/media/hobitek.jpg": "/tablo/static/media/hobitek.495ecc99df4bfc53d96f.jpg",
+    "static/media/sleglis.png": "/tablo/static/media/sleglis.d71641943496f47f6745.png",
+    "static/media/Vikings_2_title.jpg": "/tablo/static/media/Vikings_2_title.76498eddc4cc0fa63de3.jpg",
+    "static/media/Svoboda_Ondřej.jpg": "/tablo/static/media/Svoboda_Ondřej.24328b5c232609660ee4.jpg",
+    "static/media/Sherlock.jpg": "/tablo/static/media/Sherlock.a7df6fa9a1e9d4a032b2.jpg",
+    "static/media/You.jpg": "/tablo/static/media/You.57b04b8112c40753cdf2.jpg",
+    "static/media/Vajsejtl_Jaroslav.jpg": "/tablo/static/media/Vajsejtl_Jaroslav.5cbbf3348ab96c93732d.jpg",
+    "static/media/Rush.jpg": "/tablo/static/media/Rush.c2ce0f8ce5e455f1ed9b.jpg",
+    "static/media/Brooklyn 99_Starek_Klajl_title2.jpg": "/tablo/static/media/Brooklyn 99_Starek_Klajl_title2.d86b4d2dfc4c2258ce6a.jpg",
+    "static/media/Peaky_fookin_blinders_title.jpg": "/tablo/static/media/Peaky_fookin_blinders_title.bad56c7e5b3e60f61a95.jpg",
+    "static/media/La Casa De Papel 2.jpg": "/tablo/static/media/La Casa De Papel 2.3580d85ebcf8cdc89b6d.jpg",
+    "static/media/Sleglis.jpg": "/tablo/static/media/Sleglis.ee456386d9cbfa197738.jpg",
+    "static/media/Hájek_Jan_title.jpg": "/tablo/static/media/Hájek_Jan_title.1cd97c0537de42ba5a94.jpg",
+    "static/media/Witcher_title.jpg": "/tablo/static/media/Witcher_title.b35da49343f608643fc4.jpg",
+    "static/media/Prágr_Daniel.jpg": "/tablo/static/media/Prágr_Daniel.7ddb398afc8df76050a4.jpg",
+    "static/media/Office_red_title.jpg": "/tablo/static/media/Office_red_title.c37a63614bd9da0fb541.jpg",
+    "static/media/patamat (2).png": "/tablo/static/media/patamat (2).ff38c6ec39d8b6520f5a.png",
+    "static/media/BOREK.jpg": "/tablo/static/media/BOREK.5bc454c2714617a04964.jpg",
+    "static/media/Vojtěch_Suchánek.jpg": "/tablo/static/media/Vojtěch_Suchánek.d960dbda50b97c246ab1.jpg",
+    "static/media/vojtik.jpg": "/tablo/static/media/vojtik.f85fd4ec427344efce51.jpg",
+    "static/media/lg.svg?io9a6k": "/tablo/static/media/lg.09cd8e9be7081f216644.svg",
+    "static/media/lg.woff?io9a6k": "/tablo/static/media/lg.356a0e9cb064c7a196c6.woff",
+    "static/media/lg.ttf?io9a6k": "/tablo/static/media/lg.747d038541bfc6bb8ea9.ttf",
+    "static/media/lg.woff2?io9a6k": "/tablo/static/media/lg.64b800aa30714fd916dc.woff2",
     "index.html": "/tablo/index.html",
-    "main.2fbc9ff4.css.map": "/tablo/static/css/main.2fbc9ff4.css.map",
-    "main.6bfcbe25.js.map": "/tablo/static/js/main.6bfcbe25.js.map"
+    "main.908a5d33.css.map": "/tablo/static/css/main.908a5d33.css.map",
+    "main.8b8687aa.js.map": "/tablo/static/js/main.8b8687aa.js.map"
   },
   "entrypoints": [
-    "static/css/main.2fbc9ff4.css",
-    "static/js/main.6bfcbe25.js"
+    "static/css/main.908a5d33.css",
+    "static/js/main.8b8687aa.js"
   ]
 }
