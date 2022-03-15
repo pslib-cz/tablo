@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/tablo/static/css/main.092c0bbc.css",
-    "main.js": "/tablo/static/js/main.867c786b.js",
+    "main.css": "/tablo/static/css/main.db907393.css",
+    "main.js": "/tablo/static/js/main.696759cf.js",
     "static/media/Final.jpg": "/tablo/static/media/Final.9a38c144796bb5308f9a.jpg",
+    "static/media/tablo_final.jpg": "/tablo/static/media/tablo_final.f1f90fdccb2900d830a0.jpg",
     "static/media/tomáš_jindrák.png": "/tablo/static/media/tomáš_jindrák.bc581b5dfabb68cc2229.png",
     "static/media/Viktor_Cast_Away.jpg": "/tablo/static/media/Viktor_Cast_Away.3f398911ff980fc61c5f.jpg",
     "static/media/hobitek.jpg": "/tablo/static/media/hobitek.495ecc99df4bfc53d96f.jpg",
@@ -25,16 +26,17 @@
     "static/media/BOREK.jpg": "/tablo/static/media/BOREK.5bc454c2714617a04964.jpg",
     "static/media/Vojtěch_Suchánek.jpg": "/tablo/static/media/Vojtěch_Suchánek.d960dbda50b97c246ab1.jpg",
     "static/media/vojtik.jpg": "/tablo/static/media/vojtik.f85fd4ec427344efce51.jpg",
+    "static/media/tablo_final_min.jpg": "/tablo/static/media/tablo_final_min.e7ce79c6c0e5e1c37c92.jpg",
     "static/media/lg.svg?io9a6k": "/tablo/static/media/lg.09cd8e9be7081f216644.svg",
     "static/media/lg.woff?io9a6k": "/tablo/static/media/lg.356a0e9cb064c7a196c6.woff",
     "static/media/lg.ttf?io9a6k": "/tablo/static/media/lg.747d038541bfc6bb8ea9.ttf",
     "static/media/lg.woff2?io9a6k": "/tablo/static/media/lg.64b800aa30714fd916dc.woff2",
     "index.html": "/tablo/index.html",
-    "main.092c0bbc.css.map": "/tablo/static/css/main.092c0bbc.css.map",
-    "main.867c786b.js.map": "/tablo/static/js/main.867c786b.js.map"
+    "main.db907393.css.map": "/tablo/static/css/main.db907393.css.map",
+    "main.696759cf.js.map": "/tablo/static/js/main.696759cf.js.map"
   },
   "entrypoints": [
-    "static/css/main.092c0bbc.css",
-    "static/js/main.867c786b.js"
+    "static/css/main.db907393.css",
+    "static/js/main.696759cf.js"
   ]
 }
