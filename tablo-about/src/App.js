@@ -15,8 +15,8 @@ function App() {
 
   return (
     <>
-      <Background offsetY={offsetY} />
       <Nav />
+      <Background offsetY={offsetY} />
       <Scene offsetY={offsetY} />
     </>
   )

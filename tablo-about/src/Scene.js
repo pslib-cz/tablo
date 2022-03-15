@@ -12,8 +12,9 @@ import 'lightgallery/css/lg-thumbnail.css';
 import lgThumbnail from 'lightgallery/plugins/thumbnail';
 import lgZoom from 'lightgallery/plugins/zoom';
 
-import {images} from "./gallery"
+import { images } from "./gallery"
 import GalleryImage from "./GalleryImage"
+import Letter from './Letter';
 
 export default function Scene({ offsetY }) {
     //console.log(offsetY)
@@ -28,11 +29,11 @@ export default function Scene({ offsetY }) {
             <div className='scene'>
                 <div className='scene__netflix'>
                     <h1 className=''>
-                        <span style={{ transform: `translateY(${.4 * offsetY}px)` }}>L</span>
-                        <span style={{ transform: `translateY(${.7 * offsetY}px)` }}>Y</span>
-                        <span style={{ transform: `translateY(${.5 * offsetY}px)` }}>C</span>
-                        <span style={{ transform: `translateY(${.6 * offsetY}px)` }}>K</span>
-                        <span style={{ transform: `translateY(${.3 * offsetY}px)` }}>O</span>
+                        <Letter offsetY={.4 * offsetY} key={0} letter={"L"}/>
+                        <Letter offsetY={.7 * offsetY} key={1} letter={"Y"}/>
+                        <Letter offsetY={.5 * offsetY} key={2} letter={"C"}/>
+                        <Letter offsetY={.6 * offsetY} key={3} letter={"K"}/>
+                        <Letter offsetY={.3 * offsetY} key={4} letter={"O"}/>
                     </h1>
                 </div>
             </div>
