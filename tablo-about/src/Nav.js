@@ -9,8 +9,9 @@ export default function Nav() {
                     <p>L4</p>
                 </div>
                 <ul className='nav__list'>
-                    <li><a href='#xd'>CREATORS</a></li>
-                    <li><a href='#xd'>PHOTOS</a></li>
+                    <li><a href='#creators'>CREATORS</a></li>
+                    <li><a href='#gallery'>GALLERY</a></li>
+                    <li><a href='#tablo'>TABLO</a></li>
                 </ul>
             </div>
         </nav>

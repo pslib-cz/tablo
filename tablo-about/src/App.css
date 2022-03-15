@@ -1,11 +1,38 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@100;300;400;500;700&display=swap");
 
+html{
+  scroll-padding-top: 90px;
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   --red: red;
   --dark: black;
   --light: white;
   font-family: "Roboto", sans-serif;
+}
+
+p,
+a,
+span {
+  text-decoration: none;
+  color: var(--light);
+  filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.308));
+}
+
+h1 span {
+  display: inline-block;
+  font-family: "Bebas Neue", cursive;
+  transition: 0.25s;
+}
+h1 {
+  text-align: center;
+  padding: 0;
+  font-size: 6rem;
+}
+main {
+  padding-top: 90px;
   background: rgb(63, 94, 251);
   background: -moz-radial-gradient(
     circle,
@@ -24,33 +51,12 @@ body {
   );
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3f5efb",endColorstr="#fc466b",GradientType=1);
 }
-
-p,
-a,
-span {
-  text-decoration: none;
-  color: var(--light);
-  filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.308));
-}
-
-h1 span {
-  display: inline-block;
-  font-family: "Bebas Neue", cursive;
-  transition: .25s;
-}
-h1 {
-  text-align: center;
-  padding: 0;
-  font-size: 6rem;
-}
-main {
-  padding-top: 90px;
-}
 .content__container,
 .creator__container,
 .gallery {
   display: block;
   margin: 1rem;
+  margin-bottom: 0;
   background: rgba(255, 255, 255, 0.2);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -119,7 +125,7 @@ h2 {
   .content__container,
   .gallery {
     width: 1200px;
-    margin: 1rem calc(50vw - 600px);
+    margin: 1rem calc(50vw - 600px) 0 calc(50vw - 600px);
   }
 }
 
@@ -174,4 +180,39 @@ h2 {
   .lg-react-element .lg__image {
     max-width: 300px;
   }
+}
+.netflix {
+  background-color: rgba(252, 70, 107, 1);
+  height: 100vh;
+  padding-top: 100px;
+  padding-bottom: 1rem;
+  overflow: hidden;
+}
+
+.netflix__background {
+  background-color: rgb(1, 0, 12);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  opacity: var(--opacity);
+  transition: 1s;
+}
+.netflix figure {
+  height: calc(100vh - 100px);
+  overflow: hidden;
+  border-radius: 1rem;
+  margin: 0;
+  margin-top: 100px;
+}
+.netflix img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.footer {
+  text-align: center;
+  color: white;
+  
 }

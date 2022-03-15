@@ -23,15 +23,21 @@
   justify-content: center;
   flex-wrap: wrap;
   list-style: none;
+  padding-left: 0;
 }
 .nav__list li {
   margin: 0 1rem;
 }
 
-
 @media only screen and (min-width: 1200px) {
   .nav__container {
     width: 1200px;
     padding: 1rem calc(50vw - 600px);
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .nav__icon{
+    display: none;
   }
 }
