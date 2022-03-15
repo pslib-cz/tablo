@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Letter({ offsetY, letter }) {
 
-    if (offsetY > 200)
+    if (offsetY > 300)
         return null
 
     return (

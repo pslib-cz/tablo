@@ -1,7 +1,8 @@
 import React from 'react'
 import background from "./Background.css"
 
-export default function Background({ offsetY }) {
+export default function Background({ offsetY, main }) {
+    console.log(main.current)
     return (
         <div className='background'>
             <svg xmlns="http://www.w3.org/2000/svg" width="2327" height="1597" viewBox="0 0 2327 1597">

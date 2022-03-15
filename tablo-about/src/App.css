@@ -36,6 +36,7 @@ span {
 h1 span {
   display: inline-block;
   font-family: "Bebas Neue", cursive;
+  transition: .25s;
 }
 h1 {
   text-align: center;
