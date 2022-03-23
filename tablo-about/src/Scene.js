@@ -30,7 +30,7 @@ export default function Scene({ offsetY, setMainRef }) {
             mainRef
         )
     }, [])
-
+//Doufám že tohle nikdy neuvidí Každá, jinak mě zabije
     return (
         <>
             <main ref={mainRef} id='scene'>
@@ -60,7 +60,7 @@ export default function Scene({ offsetY, setMainRef }) {
                                     <a rel='noopener' href='https://github.com/elecraft2002' target='_blank'>{github}</a>
                                 </div>
                                 <p>
-                                    Grafik, programátor a střihač v jednom :)
+                                Jsem Vojtěch Suchánek a chodím na Lycko. Grafice se věnuji už od základky, baví mě streamování, hraní her 🎮, cvičení, editování videí a focení. Mám rád výzvy a nové věci, tablo byla jedna z nich. Po studiu na Průmce bych chtěl jít na FIT ČVUT.
                                 </p>
                             </div>
                         </div>

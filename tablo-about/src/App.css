@@ -168,9 +168,12 @@ h2 {
 .lg__image figcaption {
   position: absolute;
   left: 50%;
-  transform: translate(-50%, -2em);
+  transform: translate(-50%);
   transition: 0.5s;
   filter: drop-shadow(0 0 10px black);
+  text-align: center;
+  backdrop-filter: blur(2px);
+  bottom: 0;
 }
 .lg__image:hover figcaption {
   transform: translate(-50%, -2em) scale(1.2);
@@ -198,6 +201,7 @@ h2 {
   height: 100vh;
   opacity: var(--opacity);
   transition: 1s;
+  z-index: 0;
 }
 .netflix figure {
   height: calc(100vh - 100px);
@@ -214,5 +218,6 @@ h2 {
 .footer {
   text-align: center;
   color: white;
-  
+  position: absolute;
+  bottom: 0;
 }

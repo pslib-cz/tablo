@@ -12,14 +12,14 @@ import lgZoom from 'lightgallery/plugins/zoom';
 
 export default function Netflix({ mainRef, offsetY }) {
 
-    const add = window.innerWidth > 700 ? 100 : 0
+    const add = window.innerWidth > 700 ? 100 : 200
 
     function TabloBackground() {
         if (mainRef.current.clientHeight - window.innerHeight / 2 - add < offsetY) {
             const opacity = (1 - (mainRef.current.clientHeight - window.innerHeight / 2 - add) / offsetY) * 20
             return (
                 <div style={{ "--opacity": opacity > 1 ? 1 : opacity }} className='netflix__background'>
-                    LOL
+                    
                 </div>
             )
         }
@@ -40,7 +40,6 @@ export default function Netflix({ mainRef, offsetY }) {
                     </a>
                 </LightGallery>
             </div>
-            <p className='footer'>© Vojtěch Suchánek 2022</p>
         </>
     )
 }
