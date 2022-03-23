@@ -1,13 +1,12 @@
 {
   "files": {
-    "main.css": "/tablo/static/css/main.f275e70c.css",
-    "main.js": "/tablo/static/js/main.eb0a5e03.js",
+    "main.css": "/tablo/static/css/main.49fd9452.css",
+    "main.js": "/tablo/static/js/main.692e8ea9.js",
     "static/media/Final.jpg": "/tablo/static/media/Final.9a38c144796bb5308f9a.jpg",
     "static/media/tablo_final.jpg": "/tablo/static/media/tablo_final.f1f90fdccb2900d830a0.jpg",
     "static/media/tomáš_jindrák.png": "/tablo/static/media/tomáš_jindrák.bc581b5dfabb68cc2229.png",
     "static/media/Viktor_Cast_Away.jpg": "/tablo/static/media/Viktor_Cast_Away.3f398911ff980fc61c5f.jpg",
     "static/media/hobitek.jpg": "/tablo/static/media/hobitek.495ecc99df4bfc53d96f.jpg",
-    "static/media/sleglis.png": "/tablo/static/media/sleglis.d71641943496f47f6745.png",
     "static/media/Vikings_2_title.jpg": "/tablo/static/media/Vikings_2_title.76498eddc4cc0fa63de3.jpg",
     "static/media/Svoboda_Ondřej.jpg": "/tablo/static/media/Svoboda_Ondřej.24328b5c232609660ee4.jpg",
     "static/media/Sherlock.jpg": "/tablo/static/media/Sherlock.a7df6fa9a1e9d4a032b2.jpg",
@@ -32,11 +31,11 @@
     "static/media/lg.ttf?io9a6k": "/tablo/static/media/lg.747d038541bfc6bb8ea9.ttf",
     "static/media/lg.woff2?io9a6k": "/tablo/static/media/lg.64b800aa30714fd916dc.woff2",
     "index.html": "/tablo/index.html",
-    "main.f275e70c.css.map": "/tablo/static/css/main.f275e70c.css.map",
-    "main.eb0a5e03.js.map": "/tablo/static/js/main.eb0a5e03.js.map"
+    "main.49fd9452.css.map": "/tablo/static/css/main.49fd9452.css.map",
+    "main.692e8ea9.js.map": "/tablo/static/js/main.692e8ea9.js.map"
   },
   "entrypoints": [
-    "static/css/main.f275e70c.css",
-    "static/js/main.eb0a5e03.js"
+    "static/css/main.49fd9452.css",
+    "static/js/main.692e8ea9.js"
   ]
 }
