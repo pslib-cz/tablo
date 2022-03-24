@@ -75,6 +75,7 @@ export default function Scene({ offsetY, setMainRef }) {
                                     <a rel='noopener' href='https://www.facebook.com/profile.php?id=100011387843027' target='_blank'>{facebook}</a>
                                     <a rel='noopener' href='https://github.com/elecraft2002' target='_blank'>{github}</a>
                                 </div>
+                                <p>Jmenuju se Lukáš Maršík. Tvořím grafiku a různé animace. Ve volném čase rád sportuju nebo sleduju Netflix.</p>
                             </div>
                         </div>
                         <div className='creator__container'>
