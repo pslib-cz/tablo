@@ -21,7 +21,7 @@ function App() {
     <>
       <Helmet>
         <title>{tilte}</title>
-        
+        <link rel='icon' href='xd'/>
       </Helmet>
       <Nav />
       <Scene setMainRef={setMainRef} offsetY={offsetY} />
