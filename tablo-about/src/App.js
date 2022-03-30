@@ -7,14 +7,14 @@ import { Helmet } from 'react-helmet'
 
 import TagManager from 'react-gtm-module'
 
-const tagManagerArgs = {
-  gtmId: 'G-4LB0V8299G'
-};
-
-TagManager.initialize(tagManagerArgs)
 
 
 function App() {
+  const tagManagerArgs = {
+    gtmId: 'G-4LB0V8299G'
+  };
+
+  TagManager.initialize(tagManagerArgs)
   const tilte = "Tablo L4 2018-2022"
   const [offsetY, setOffsetY] = useState(0)
   const handleScrollY = () => setOffsetY(window.pageYOffset)
