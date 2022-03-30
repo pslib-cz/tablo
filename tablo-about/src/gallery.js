@@ -5,9 +5,24 @@ export const images = [
         "name": "Bořek Haiblík - John Wick"
     },
     {
+        "url": require("./imgs/movies/La Casa De Papel 2.jpg"),
+        "urlMin":require("./imgs/movies/min/La Casa De Papel 2.jpg"),
+        "name": "Michal Höfer, Jonáš Novotný, Adam Kvapil, Jakub Stádník a Radek Dvořák - Money Heist"
+    },
+    {
+        "url": require("./imgs/movies/Vojtěch_Suchánek.jpg"),
+        "urlMin":require("./imgs/movies/min/Vojtěch_Suchánek.jpg"),
+        "name": "Vojtěch Suchánek - Forrest Gump"
+    },
+    {
+        "url": require("./imgs/movies/Office_red_title.jpg"),
+        "urlMin":require("./imgs/movies/min/Office_red_title.jpg"),
+        "name": "Lukáš Maršík a Josef Rybář - The Office"
+    },
+    {
         "url": require("./imgs/movies/Brooklyn 99_Starek_Klajl_title2.jpg"),
         "urlMin":require("./imgs/movies/min/Brooklyn 99_Starek_Klajl_title2.jpg"),
-        "name": "Petr Klail a Jakub Stárek - Brooklyn 99"
+        "name": "Petr Klajl a Jakub Stárek - Brooklyn 99"
     },
     {
         "url": require("./imgs/movies/Final.jpg"),
@@ -23,16 +38,6 @@ export const images = [
         "url": require("./imgs/movies/hobitek.jpg"),
         "urlMin":require("./imgs/movies/min/hobitek.jpg"),
         "name": "Ondřej Šimek - Hobbit"
-    },
-    {
-        "url": require("./imgs/movies/La Casa De Papel 2.jpg"),
-        "urlMin":require("./imgs/movies/min/La Casa De Papel 2.jpg"),
-        "name": "Michal Höfer, Jonáš Novotný, Adam Kvapil, Jakub Stádník a Radek Dvořák - Money Heist"
-    },
-    {
-        "url": require("./imgs/movies/Office_red_title.jpg"),
-        "urlMin":require("./imgs/movies/min/Office_red_title.jpg"),
-        "name": "Lukáš Maršík a Josef Rybář - The Office"
     },
     {
         "url": require("./imgs/movies/patamat (2).png"),
@@ -88,11 +93,6 @@ export const images = [
         "url": require("./imgs/movies/Viktor_Cast_Away.jpg"),
         "urlMin":require("./imgs/movies/min/Viktor_Cast_Away.jpg"),
         "name": "Viktor Zoubek - Cast Away"
-    },
-    {
-        "url": require("./imgs/movies/Vojtěch_Suchánek.jpg"),
-        "urlMin":require("./imgs/movies/min/Vojtěch_Suchánek.jpg"),
-        "name": "Vojtěch Suchánek - Forrest Gump"
     },
     {
         "url": require("./imgs/movies/Witcher_title.jpg"),

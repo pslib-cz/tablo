@@ -73,7 +73,7 @@ export default function Scene({ offsetY, setMainRef }) {
                                 </figure>
                                 <h3>Lukáš Maršík</h3>
                                 <div className='creator__links'>
-                                    <a rel='noopener' href='https://www.facebook.com/luky.marsik' target='_blank'>{instagram}</a>
+                                    <a rel='noopener' href='https://www.instagram.com/lukas_marsik/' target='_blank'>{instagram}</a>
                                     <a rel='noopener' href='https://www.facebook.com/luky.marsik' target='_blank'>{facebook}</a>
                                     <a rel='noopener' href='https://www.linkedin.com/in/luk%C3%A1%C5%A1-mar%C5%A1%C3%ADk-260224221' target='_blank'>{linkedin}</a>
                                 </div>
