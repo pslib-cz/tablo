@@ -5,6 +5,14 @@ import Nav from './Nav';
 import Background from './Background';
 import { Helmet } from 'react-helmet'
 
+import TagManager from 'react-gtm-module'
+
+const tagManagerArgs = {
+  gtmId: 'G-4LB0V8299G'
+};
+
+TagManager.initialize(tagManagerArgs)
+
 
 function App() {
   const tilte = "Tablo L4 2018-2022"
@@ -22,7 +30,6 @@ function App() {
     <>
       <Helmet>
         <title>{tilte}</title>
-        <link rel='icon' href='xd'/>
       </Helmet>
       <Nav />
       <Scene setMainRef={setMainRef} offsetY={offsetY} />
