@@ -18,11 +18,11 @@ export default function Letter({ offsetY, letter, setEasterEgg, easterEgg }) {
         if (letter === 'O')
             url = 'https://simekjegej.cz/'
         if (letter === 'K') {
-            if (easterEgg)
-                return
             const easterEggPhoto = easterEggs[Math.floor(Math.random() * easterEggs.length)]
 
             setEasterEgg(easterEggPhoto)
+            if (easterEgg)
+                return
             new Audio(songs[Math.floor(Math.random() * songs.length)]).play()
         }
 
