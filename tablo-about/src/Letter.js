@@ -8,11 +8,16 @@ export default function Letter({ offsetY, letter }) {
         return <span>{letter}</span>
 
     function redirect() {
+
         let url
 
         if (letter === 'L')
             url = 'https://www.youtube.com/watch?v=hOYFwnqRnJo'
+        if (letter === 'O')
+            url = 'https://simekjegej.cz/'
 
+        if (!url)
+            return
         //redirect page
         window.location.href = url
     }
