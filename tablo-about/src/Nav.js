@@ -6,7 +6,7 @@ export default function Nav() {
         <nav className='nav'>
             <div className='nav__container'>
                 <div className='nav__icon'>
-                    <p>L4</p>
+                    <a href='./tablo'>L4</a>
                 </div>
                 <ul className='nav__list'>
                     <li><a href='#creators'>CREATORS</a></li>
