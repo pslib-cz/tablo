@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import vojtik from './imgs/vojtik1.jpg'
 import lukas from './imgs/lukas.jpg'
 import michal from './imgs/michal.jpg'
@@ -27,6 +27,7 @@ export default function Scene({ offsetY, setMainRef }) {
     const wave1 = <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="1" d="M0,288L48,272C96,256,192,224,288,197.3C384,171,480,149,576,165.3C672,181,768,235,864,250.7C960,267,1056,245,1152,250.7C1248,256,1344,288,1392,304L1440,320L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
     const linkedin = <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z" /></svg>
     const mainRef = useRef(0)
+    const [easterEgg, setEasterEgg] = useState(false)
     useEffect(() => {
         setMainRef(
             mainRef
@@ -35,15 +36,15 @@ export default function Scene({ offsetY, setMainRef }) {
     //Doufám že tohle nikdy neuvidí Každá, jinak mě zabije
     return (
         <>
-            <main ref={mainRef} id='scene'>
+            <main className='metrix' ref={mainRef} id='scene'>
                 <div className='scene'>
                     <div className='scene__netflix'>
                         <h1 className=''>
-                            <Letter offsetY={.4 * offsetY} key={0} letter={"L"} />
-                            <Letter offsetY={.7 * offsetY} key={1} letter={"Y"} />
-                            <Letter offsetY={.5 * offsetY} key={2} letter={"C"} />
-                            <Letter offsetY={.6 * offsetY} key={3} letter={"K"} />
-                            <Letter offsetY={.3 * offsetY} key={4} letter={"O"} />
+                            <Letter setEasterEgg={setEasterEgg} easterEgg={easterEgg} offsetY={.4 * offsetY} key={0} letter={"L"} />
+                            <Letter setEasterEgg={setEasterEgg} easterEgg={easterEgg} offsetY={.7 * offsetY} key={1} letter={"Y"} />
+                            <Letter setEasterEgg={setEasterEgg} easterEgg={easterEgg} offsetY={.5 * offsetY} key={2} letter={"C"} />
+                            <Letter setEasterEgg={setEasterEgg} easterEgg={easterEgg} offsetY={.6 * offsetY} key={3} letter={"K"} />
+                            <Letter setEasterEgg={setEasterEgg} easterEgg={easterEgg} offsetY={.3 * offsetY} key={4} letter={"O"} />
                         </h1>
                     </div>
                 </div>
@@ -109,7 +110,7 @@ export default function Scene({ offsetY, setMainRef }) {
                     </LightGallery>
                 </section>
             </main >
-            <Netflix mainRef={mainRef} offsetY={offsetY} />
+            <Netflix easterEgg={easterEgg} mainRef={mainRef} offsetY={offsetY} />
         </>
     )
 }

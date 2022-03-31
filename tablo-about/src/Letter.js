@@ -1,6 +1,8 @@
 import React from 'react'
+import { easterEggs } from './easterEggs'
+import { songs } from './songs'
 
-export default function Letter({ offsetY, letter }) {
+export default function Letter({ offsetY, letter, setEasterEgg, easterEgg }) {
 
 
 
@@ -15,6 +17,14 @@ export default function Letter({ offsetY, letter }) {
             url = 'https://www.youtube.com/watch?v=hOYFwnqRnJo'
         if (letter === 'O')
             url = 'https://simekjegej.cz/'
+        if (letter === 'K') {
+            if (easterEgg)
+                return
+            const easterEggPhoto = easterEggs[Math.floor(Math.random() * easterEggs.length)]
+
+            setEasterEgg(easterEggPhoto)
+            new Audio(songs[Math.floor(Math.random() * songs.length)]).play()
+        }
 
         if (!url)
             return
