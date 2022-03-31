@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/tablo/static/css/main.60ebbd84.css",
-    "main.js": "/tablo/static/js/main.788c64a8.js",
+    "main.js": "/tablo/static/js/main.88302ba0.js",
     "static/media/Final.jpg": "/tablo/static/media/Final.9a38c144796bb5308f9a.jpg",
     "static/media/clubbed to death extended - Matrix.mp3": "/tablo/static/media/clubbed to death extended - Matrix.755b00f8ea113a6d15de.mp3",
     "static/media/tablo_final.jpg": "/tablo/static/media/tablo_final.f1f90fdccb2900d830a0.jpg",
+    "static/media/The Caretaker - It's just a burning memory (2016).mp3": "/tablo/static/media/The Caretaker - It's just a burning memory (2016).a1546965cce988de17e1.mp3",
     "static/media/Better Call Saul Theme by Little Barrie Full Orignal Song.mp3": "/tablo/static/media/Better Call Saul Theme by Little Barrie Full Orignal Song.c1aa988e936bb44a8075.mp3",
     "static/media/tomáš_jindrák.png": "/tablo/static/media/tomáš_jindrák.bc581b5dfabb68cc2229.png",
     "static/media/Viktor_Cast_Away.jpg": "/tablo/static/media/Viktor_Cast_Away.3f398911ff980fc61c5f.jpg",
@@ -124,10 +125,10 @@
     "static/media/lg.woff2?io9a6k": "/tablo/static/media/lg.64b800aa30714fd916dc.woff2",
     "index.html": "/tablo/index.html",
     "main.60ebbd84.css.map": "/tablo/static/css/main.60ebbd84.css.map",
-    "main.788c64a8.js.map": "/tablo/static/js/main.788c64a8.js.map"
+    "main.88302ba0.js.map": "/tablo/static/js/main.88302ba0.js.map"
   },
   "entrypoints": [
     "static/css/main.60ebbd84.css",
-    "static/js/main.788c64a8.js"
+    "static/js/main.88302ba0.js"
   ]
 }
