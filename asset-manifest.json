@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/tablo/static/css/main.60ebbd84.css",
-    "main.js": "/tablo/static/js/main.1f1ca1be.js",
+    "main.js": "/tablo/static/js/main.ef603b9e.js",
     "static/media/Final.jpg": "/tablo/static/media/Final.9a38c144796bb5308f9a.jpg",
     "static/media/tablo_final.jpg": "/tablo/static/media/tablo_final.f1f90fdccb2900d830a0.jpg",
     "static/media/tomáš_jindrák.png": "/tablo/static/media/tomáš_jindrák.bc581b5dfabb68cc2229.png",
@@ -34,10 +34,10 @@
     "static/media/lg.woff2?io9a6k": "/tablo/static/media/lg.64b800aa30714fd916dc.woff2",
     "index.html": "/tablo/index.html",
     "main.60ebbd84.css.map": "/tablo/static/css/main.60ebbd84.css.map",
-    "main.1f1ca1be.js.map": "/tablo/static/js/main.1f1ca1be.js.map"
+    "main.ef603b9e.js.map": "/tablo/static/js/main.ef603b9e.js.map"
   },
   "entrypoints": [
     "static/css/main.60ebbd84.css",
-    "static/js/main.1f1ca1be.js"
+    "static/js/main.ef603b9e.js"
   ]
 }
